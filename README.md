@@ -1,46 +1,141 @@
 # 📈 Student Marks Analyzer (C)
 
-A beginner-friendly C project that takes marks of 5 students, stores them in an array, and displays them back to the user. This project is being built step by step as part of my C programming learning journey.
+A beginner-friendly C project built as part of my C Programming learning journey. This project helps users enter, store, and analyze student marks using arrays. Each version introduces new C programming concepts while following professional GitHub practices and clean coding principles.
 
 ---
 
 ## ✨ Features
 
-- ✅ Enter marks of 5 students
-- ✅ Store marks using an array
-- ✅ Display all entered marks
-- ✅ Simple menu-free console program
-- ✅ Beginner-friendly implementation
+- 📝 Enter marks of 5 students
+- 📊 Store marks using arrays
+- 📋 Display all entered marks
+- 🔢 Uses `for` loops for efficient input and output
+- 🎯 Beginner-friendly implementation
+- 💻 Clean and simple console interface
 
 ---
 
 ## 🧠 Concepts Learned
 
-- Variables and Data Types
+- Variables & Data Types
 - Arrays
+- Input / Output (`scanf` & `printf`)
 - `for` Loop
-- Input / Output (`scanf`, `printf`)
-- 0-based indexing
+- Array Indexing
+- Basic Program Structure
 
 ---
 
-## 📷 Sample Output
+## 🚀 Project Progress
 
-```text
-=================================
-      STUDENT MARKS ANALYZER
-=================================
-Enter marks of student 1: 45
-Enter marks of student 2: 67
-Enter marks of student 3: 89
-Enter marks of student 4: 56
-Enter marks of student 5: 72
+### ✅ v1.0
+- Created an array to store marks of 5 students
+- Accepted marks from the user
+- Displayed all entered marks using a `for` loop
 
-=================================
-         ENTERED MARKS
-=================================
-Student 1: 45.00
-Student 2: 67.00
-Student 3: 89.00
-Student 4: 56.00
-Student 5: 72.00
+### 🔮 Planned Improvements
+
+### ⬜ v1.1
+- Calculate Total Marks
+- Calculate Average Marks
+
+### ⬜ v1.2
+- Find Highest Mark
+- Find Lowest Mark
+
+### ⬜ v1.3
+- Search Student Marks by Number
+
+### ⬜ v1.4
+- Grade Calculator (A, B, C, D, F)
+
+### ⬜ v1.5
+- Better Console UI
+- Improved Output Formatting
+
+### ⬜ v2.0
+- Modular Programming using Functions
+
+### ⬜ v3.0
+- File Handling (Save & Load Student Data)
+
+---
+
+## ▶️ How to Use
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/dakshkumawat07/Student-Marks-Analyzer.git
+```
+
+2. Open the project folder
+
+```bash
+cd Student-Marks-Analyzer
+```
+
+3. Compile the program
+
+```bash
+gcc main.c -o marks
+```
+
+4. Run the program
+
+### Linux / Kali
+
+```bash
+./marks
+```
+
+### Windows
+
+```bash
+marks.exe
+```
+
+5. Enter the marks of five students when prompted. The program will store the marks in an array and display all entered marks.
+
+---
+
+## 📂 Project Structure
+
+```
+Student-Marks-Analyzer/
+│── main.c
+│── README.md
+```
+
+---
+
+## 💻 Tech Stack
+
+- **Language:** C
+- **Compiler:** GCC
+- **IDE:** Visual Studio Code
+- **Operating System:** Kali Linux
+- **Version Control:** Git
+- **Repository Hosting:** GitHub
+
+---
+
+## 🎯 Learning Goal
+
+The purpose of this project is to strengthen my understanding of arrays, loops, and basic problem-solving in C by developing a real-world console application. The project is built incrementally, with each version introducing new programming concepts while following clean coding practices and professional GitHub workflow.
+
+---
+
+## 👨‍💻 Author
+
+**Daksh Kumawat**
+
+First-Year Computer Science Engineering Student
+
+Learning C Programming • Building Projects • Exploring Software Development
+
+---
+
+## ⭐ Future Vision
+
+This project is part of my C Programming Projects collection. As I continue learning C, this application will evolve into a more advanced Student Management System with features like grading, searching, sorting, file handling, and complete student record management.
