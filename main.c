@@ -3,6 +3,8 @@
 int main()
 {
     float marks[5];
+    float total = 0;
+    float average;
     int i;
 
     printf("=================================\n");
@@ -22,7 +24,16 @@ int main()
     for (i = 0; i < 5; i++)
     {
         printf("Student %d: %.2f\n", i + 1, marks[i]);
+        total += marks[i];
     }
+
+       average = total / 5;
+
+      printf("\n=================================\n");
+      printf("        MARKS SUMMARY\n");
+      printf("=================================\n");
+      printf("Total Marks   : %.2f\n", total);
+      printf("Average Marks : %.2f\n", average);
 
     return 0;
 }
