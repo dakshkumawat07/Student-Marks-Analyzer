@@ -23,7 +23,8 @@ A beginner-friendly C project built as part of my C Programming learning journey
 - `for` Loop
 - Array Indexing
 - Basic Program Structure
-
+- Accumulator Variables
+- Average Calculation
 ---
 
 ## 🚀 Project Progress
@@ -33,11 +34,13 @@ A beginner-friendly C project built as part of my C Programming learning journey
 - Accepted marks from the user
 - Displayed all entered marks using a `for` loop
 
+### ✅ v1.1
+- Calculated total marks
+- Calculated average marks
+- Introduced accumulator variable
+
 ### 🔮 Planned Improvements
 
-### ⬜ v1.1
-- Calculate Total Marks
-- Calculate Average Marks
 
 ### ⬜ v1.2
 - Find Highest Mark
