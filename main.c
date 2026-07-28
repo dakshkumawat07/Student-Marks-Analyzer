@@ -5,6 +5,8 @@ int main()
     float marks[5];
     float total = 0;
     float average;
+    float highest;
+    float lowest;
     int i;
 
     printf("=================================\n");
@@ -21,10 +23,24 @@ int main()
     printf("         ENTERED MARKS\n");
     printf("=================================\n");
 
+    highest = marks[0];
+    lowest = marks[0];
+
+
     for (i = 0; i < 5; i++)
     {
         printf("Student %d: %.2f\n", i + 1, marks[i]);
         total += marks[i];
+       
+       if (marks[i] > highest)
+      {
+       highest = marks[i];
+      }
+
+       if (marks[i] < lowest)
+      {
+       lowest = marks[i];
+      }
     }
 
        average = total / 5;
@@ -34,6 +50,9 @@ int main()
       printf("=================================\n");
       printf("Total Marks   : %.2f\n", total);
       printf("Average Marks : %.2f\n", average);
+      printf("Highest Marks : %.2f\n", highest);
+      printf("Lowest Marks  : %.2f\n", lowest);
+
 
     return 0;
 }
