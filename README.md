@@ -25,6 +25,10 @@ A beginner-friendly C project built as part of my C Programming learning journey
 - Basic Program Structure
 - Accumulator Variables
 - Average Calculation
+- Maximum Value Search
+- Minimum Value Search
+- Conditional Comparison (`if`)
+
 ---
 
 ## 🚀 Project Progress
@@ -39,12 +43,14 @@ A beginner-friendly C project built as part of my C Programming learning journey
 - Calculated average marks
 - Introduced accumulator variable
 
+### ✅ v1.2
+- Calculated highest marks
+- Calculated lowest marks
+- Introduced comparison logic using `if` statements
+- Improved marks summary
+
 ### 🔮 Planned Improvements
 
-
-### ⬜ v1.2
-- Find Highest Mark
-- Find Lowest Mark
 
 ### ⬜ v1.3
 - Search Student Marks by Number
