@@ -28,6 +28,9 @@ A beginner-friendly C project built as part of my C Programming learning journey
 - Maximum Value Search
 - Minimum Value Search
 - Conditional Comparison (`if`)
+- if-else if Ladder
+- Decision Making
+- Range-based Conditions
 
 ---
 
@@ -49,14 +52,16 @@ A beginner-friendly C project built as part of my C Programming learning journey
 - Introduced comparison logic using `if` statements
 - Improved marks summary
 
+### ✅ v1.3
+- Added automatic grade calculation
+- Implemented grading using if-else ladder
+- Displayed grades for each student
+
+
 ### 🔮 Planned Improvements
 
-
-### ⬜ v1.3
-- Search Student Marks by Number
-
 ### ⬜ v1.4
-- Grade Calculator (A, B, C, D, F)
+- Search Student Marks by Number
 
 ### ⬜ v1.5
 - Better Console UI
