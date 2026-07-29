@@ -41,6 +41,27 @@ int main()
       {
        lowest = marks[i];
       }
+      if (marks[i] >= 90)
+      {
+      printf("  Grade : A\n");
+      }
+      else if (marks[i] >= 80)
+      {
+      printf("  Grade : B\n");
+      }
+      else if (marks[i] >= 70)
+      {
+      printf("  Grade : C\n");
+      }
+      else if (marks[i] >= 60)
+      {
+      printf("  Grade : D\n");
+      }
+      else
+      {
+      printf("  Grade : F\n");
+      }
+     
     }
 
        average = total / 5;
@@ -49,7 +70,7 @@ int main()
       printf("        MARKS SUMMARY\n");
       printf("=================================\n");
       printf("Total Marks   : %.2f\n", total);
-      printf("Average Marks : %.2f\n", average);
+        printf("Average Marks : %.2f\n", average);
       printf("Highest Marks : %.2f\n", highest);
       printf("Lowest Marks  : %.2f\n", lowest);
 
