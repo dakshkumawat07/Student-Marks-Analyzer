@@ -7,6 +7,8 @@ int main()
     float average;
     float highest;
     float lowest;
+    int passCount = 0;
+    int failCount = 0;
     int i;
 
     printf("=================================\n");
@@ -31,7 +33,7 @@ int main()
     {
         printf("Student %d: %.2f\n", i + 1, marks[i]);
         total += marks[i];
-       
+ 
        if (marks[i] > highest)
       {
        highest = marks[i];
@@ -44,24 +46,33 @@ int main()
       if (marks[i] >= 90)
       {
       printf("  Grade : A\n");
+      printf("  Result: PASS\n");
+      passCount++;
       }
       else if (marks[i] >= 80)
       {
       printf("  Grade : B\n");
+      printf("  Result: PASS\n");
+      passCount++;
       }
       else if (marks[i] >= 70)
       {
       printf("  Grade : C\n");
+      printf("  Result: PASS\n");
+      passCount++;
       }
       else if (marks[i] >= 60)
       {
       printf("  Grade : D\n");
+      printf("  Result: PASS\n");
+      passCount++;
       }
       else
       {
       printf("  Grade : F\n");
+      printf("  Result: FAIL\n");
+      failCount++;
       }
-     
     }
 
        average = total / 5;
@@ -73,6 +84,12 @@ int main()
         printf("Average Marks : %.2f\n", average);
       printf("Highest Marks : %.2f\n", highest);
       printf("Lowest Marks  : %.2f\n", lowest);
+
+      printf("\n=================================\n");
+      printf("       RESULT SUMMARY\n");
+      printf("=================================\n");
+      printf("Passed Students : %d\n", passCount);
+      printf("Failed Students : %d\n", failCount);
 
 
     return 0;
