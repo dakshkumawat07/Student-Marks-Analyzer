@@ -31,7 +31,9 @@ A beginner-friendly C project built as part of my C Programming learning journey
 - if-else if Ladder
 - Decision Making
 - Range-based Conditions
-
+- Counter Variables
+- Increment Operator (`++`)
+- Pass/Fail Logic
 ---
 
 ## 🚀 Project Progress
@@ -57,11 +59,14 @@ A beginner-friendly C project built as part of my C Programming learning journey
 - Implemented grading using if-else ladder
 - Displayed grades for each student
 
+### ✅ v1.4
+- Added Pass/Fail analysis
+- Displayed result for each student
+- Counted total passed students
+- Counted total failed students
+- Added result summary
 
 ### 🔮 Planned Improvements
-
-### ⬜ v1.4
-- Search Student Marks by Number
 
 ### ⬜ v1.5
 - Better Console UI
