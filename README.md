@@ -34,6 +34,9 @@ A beginner-friendly C project built as part of my C Programming learning journey
 - Counter Variables
 - Increment Operator (`++`)
 - Pass/Fail Logic
+- Multiple Counters
+- Statistical Summary
+- Conditional Counting
 ---
 
 ## 🚀 Project Progress
@@ -66,11 +69,12 @@ A beginner-friendly C project built as part of my C Programming learning journey
 - Counted total failed students
 - Added result summary
 
-### 🔮 Planned Improvements
+### ✅ v1.5
+- Added grade statistics summary
+- Counted students in each grade (A, B, C, D, F)
+- Introduced multiple counter variables
 
-### ⬜ v1.5
-- Better Console UI
-- Improved Output Formatting
+### 🔮 Planned Improvements
 
 ### ⬜ v2.0
 - Modular Programming using Functions
