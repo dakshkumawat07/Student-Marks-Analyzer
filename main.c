@@ -7,8 +7,16 @@ int main()
     float average;
     float highest;
     float lowest;
+
     int passCount = 0;
     int failCount = 0;
+
+    int gradeA = 0;
+    int gradeB = 0;
+    int gradeC = 0;
+    int gradeD = 0;
+    int gradeF = 0;
+
     int i;
 
     printf("=================================\n");
@@ -47,30 +55,35 @@ int main()
       {
       printf("  Grade : A\n");
       printf("  Result: PASS\n");
+      gradeA++;
       passCount++;
       }
       else if (marks[i] >= 80)
       {
       printf("  Grade : B\n");
       printf("  Result: PASS\n");
+      gradeB++;
       passCount++;
       }
       else if (marks[i] >= 70)
       {
       printf("  Grade : C\n");
       printf("  Result: PASS\n");
+      gradeC++;
       passCount++;
       }
       else if (marks[i] >= 60)
       {
       printf("  Grade : D\n");
       printf("  Result: PASS\n");
+      gradeD++;
       passCount++;
       }
       else
       {
       printf("  Grade : F\n");
       printf("  Result: FAIL\n");
+      gradeF++;
       failCount++;
       }
     }
@@ -91,6 +104,16 @@ int main()
       printf("Passed Students : %d\n", passCount);
       printf("Failed Students : %d\n", failCount);
 
+
+      printf("\n=================================\n");
+      printf("      GRADE STATISTICS\n");
+      printf("=================================\n");
+      printf("Grade A : %d\n", gradeA);
+      printf("Grade B : %d\n", gradeB);
+      printf("Grade C : %d\n", gradeC);
+      printf("Grade D : %d\n", gradeD);
+      printf("Grade F : %d\n", gradeF);
+      printf("=================================\n");
 
     return 0;
 }
